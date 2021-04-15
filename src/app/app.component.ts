@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { BaseService } from './service/base.service';
+import { Team } from './model/team';
+import { AngularFireAuth } from 'angularfire2/auth';
+
 
 @Component({
   selector: 'app-root',
@@ -6,12 +10,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'eb-app';
+  title = 'EB2021 App';
   counter = 100;
 
-  constructor() {
-    setInterval( () => {
-      this.counter--;
-    }, 1000); 
+  constructor(
+    private baseService: BaseService<Team>,
+    private afAuth: AngularFireAuth,
+  ) {
+    let keyTeam: Team = new Team();
   }
+
 }

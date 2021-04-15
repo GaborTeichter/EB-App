@@ -5,7 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-   
+    apiKey: "AIzaSyAzZW4mDCmkSg_vdamiQGGsb35W-xmbPjM",
+    authDomain: "eb-app-15324.firebaseapp.com",
+    databaseURL: "https://eb-app-15324-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "eb-app-15324",
+    storageBucket: "eb-app-15324.appspot.com",
+    messagingSenderId: "811558685130",
+    appId: "1:811558685130:web:e57e97e41b5a0f1d616733",
+    measurementId: "G-HBH3W4DVPJ"
   }
 };
 

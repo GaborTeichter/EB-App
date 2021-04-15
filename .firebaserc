@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "eb-app-15324": {
+      "hosting": {
+        "ebapp2": [
+          "eb-app-15324"
+        ]
+      }
+    }
+  }
+}
