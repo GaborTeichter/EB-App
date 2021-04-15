@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ebapp2';
+  title = 'eb-app';
+  counter = 100;
+
+  constructor() {
+    setInterval( () => {
+      this.counter--;
+    }, 1000); 
+  }
 }
