@@ -1,10 +1,11 @@
 export class Team {
+    id?: string = "2";
+    name: string = "";
     emoji: string = "";
     emojiString: string = "";
     fifaCode: string = "";
     flag: string = "";
     iso2: string = "";
-    name: string = "";
 
     constructor(content?: {}) {
         if (content) {
