@@ -6,6 +6,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
+import { MatchListComponent } from './match-list/match-list.component';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { environment } from '../environments/environment';
     AngularFirestoreModule,
     AngularFireAuth
   ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, MatchListComponent ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {}
