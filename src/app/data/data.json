@@ -88,6 +88,200 @@
             "iso2": "hu",
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/800px-Flag_of_Hungary.svg.png",
             "emoji": "flag-hu"
+        },
+        {
+            "id": 12,
+            "name": "Italy",
+            "fifaCode": "ITA",
+            "iso2": "it",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png",
+            "emoji": "flag-it"
+        },
+        {
+            "id": 13,
+            "name": "Turkey",
+            "fifaCode": "TUR",
+            "iso2": "tr",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1024px-Flag_of_Turkey.svg.png",
+            "emoji": "flag-tr"
+        },
+        {
+            "id": 14,
+            "name": "Wales",
+            "fifaCode": "WAL",
+            "iso2": "wl",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1024px-Flag_of_Turkey.svg.png",
+            "emoji": "flag-wl"
+        },
+        {
+            "id": 15,
+            "name": "Finland",
+            "fifaCode": "FIN",
+            "iso2": "fn",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/1024px-Flag_of_Finland.svg.png",
+            "emoji": "flag-fn"
+        },
+        {
+            "id": 16,
+            "name": "Austria",
+            "fifaCode": "AUT",
+            "iso2": "at",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/1024px-Flag_of_Austria.svg.png",
+            "emoji": "flag-at"
+        },
+        {
+            "id": 17,
+            "name": "Netherlands",
+            "fifaCode": "NED",
+            "iso2": "nl",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1024px-Flag_of_the_Netherlands.svg.png",
+            "emoji": "flag-nl"
+        },
+        {
+            "id": 18,
+            "name": "North Macedonia",
+            "fifaCode": "MKD",
+            "iso2": "mk",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/1024px-Flag_of_North_Macedonia.svg.png",
+            "emoji": "flag-mk"
+        },
+        {
+            "id": 19,
+            "name": "Ukraine",
+            "fifaCode": "UKR",
+            "iso2": "uk",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/640px-Flag_of_Ukraine.svg.png",
+            "emoji": "flag-uk"
+        },
+        {
+            "id": 20,
+            "name": "Czech Republic",
+            "fifaCode": "CZE",
+            "iso2": "cz",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/640px-Flag_of_the_Czech_Republic.svg.png",
+            "emoji": "flag-cz"
+        },
+        {
+            "id": 21,
+            "name": "England",
+            "fifaCode": "ENG",
+            "iso2": "en",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/640px-Flag_of_the_Czech_Republic.svg.png",
+            "emoji": "flag-en"
+        },
+        {
+            "id": 22,
+            "name": "England",
+            "fifaCode": "ENG",
+            "iso2": "en",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/640px-Flag_of_the_Czech_Republic.svg.png",
+            "emoji": "flag-en"
+        },
+        {
+            "id": 23,
+            "name": "Scotland",
+            "fifaCode": "SCO",
+            "iso2": "sc",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/1000px-Flag_of_Scotland.svg.png",
+            "emoji": "flag-sc"
+        },
+        {
+            "id": 24,
+            "name": "Poland",
+            "fifaCode": "POL",
+            "iso2": "pl",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1024px-Flag_of_Poland.svg.png",
+            "emoji": "flag-pl"
+        },
+        {
+            "id": 25,
+            "name": "Slovakia",
+            "fifaCode": "SVK",
+            "iso2": "sk",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/800px-Flag_of_Slovakia.svg.png",
+            "emoji": "flag-sk"
+        },
+        {
+            "id": 26,
+            "name": "Sweden",
+            "fifaCode": "SWE",
+            "iso2": "se",
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/640px-Flag_of_Sweden.svg.png",
+            "emoji": "flag-se"
+        }
+    ],
+    "stadiums": [
+        {
+            "id": 1,
+            "name": "Wembley Stadium",
+            "city": "London",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Wembley-STadion_2013.JPG"
+        },
+        {
+            "id": 2,
+            "name": "Stadio Olimpico",
+            "city": "Rome",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/2011_06_22_orl-cia_241_%285869659536%29.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Allianz Arena",
+            "city": "München",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/M%C3%BCnchen_-_Allianz-Arena_%28Luftbild%29.jpg/1024px-M%C3%BCnchen_-_Allianz-Arena_%28Luftbild%29.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Puskás Aréna",
+            "city": "Budapest",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Pusk%C3%A1s_Ar%C3%A9na_04.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Baku Olympic Stadium",
+            "city": "Baku",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Baku_National_Stadium_2015-06.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Krestovsky Stadium",
+            "city": "Saint Petersburg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Spb_06-2017_img40_Krestovsky_Stadium_%28cropped%29.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Arena Nationala",
+            "city": "Bucharest",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Stadionul_National_-_National_Arena_3.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Johan Cruijff Arena",
+            "city": "Amsterdam",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Arena%2C_Ajax_stadion%2C_Amsterdam.JPG"
+        },
+        {
+            "id": 9,
+            "name": "Estadio Ramón Sánchez-Pizjuán",
+            "city": "Sevilla",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Estadio_Ramon_Sanchez_Pizjuan%2C_October_2015.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Hampden Park",
+            "city": "Glasgow",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hampden_Park_%28panorama%29%2C_Commonwealth_Games%2C_Glasgow_2014.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Aviva Stadium",
+            "city": "Dublin",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Aviva_Stadium%28Dublin_Arena%29.JPG"
+        },
+        {
+            "id": 12,
+            "name": "Parken Stadium",
+            "city": "Copenhagen",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Parken_02.JPG"
         }
     ]
 
