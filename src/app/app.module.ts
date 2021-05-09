@@ -4,7 +4,6 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
-import { AngularFireAuth } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 import { MatchListComponent } from './match-list/match-list.component';
 
@@ -15,7 +14,6 @@ import { MatchListComponent } from './match-list/match-list.component';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
     AngularFirestoreModule,
-    AngularFireAuth
   ],
   declarations: [ AppComponent, MatchListComponent ],
   bootstrap: [ AppComponent ]

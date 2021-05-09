@@ -1,12 +1,12 @@
   
 import { Component } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
 import { BaseService } from './service/base.service';
 import { Team } from './model/team';
-import { AngularFireAuth } from 'angularfire2/auth';
-import { isNull } from 'util';
-import { Observable } from 'rxjs';
 import { AuthService } from './service/auth.service';
+import { isNull } from 'util';
+import { ImporterService } from './service/importer.service';
 
 @Component({
   selector: 'app-root',
@@ -20,17 +20,16 @@ export class AppComponent {
   teams: Team[] = [];
   oneTeam: any;
   newRow: any = {};
-  items: Observable<any[]>;
-
+  afAuth: any;
+  
   constructor(
-    private firestore: AngularFirestore,
+    firestore: AngularFirestore,
     private baseService: BaseService<Team>,
-    private afAuth: AngularFireAuth,
     private authService: AuthService,
+    private importerService: ImporterService
   ) {
     let keyTeam: Team = new Team();
     this.teamKeys = Object.keys( keyTeam );
-    this.items = firestore.collection('items').valueChanges();
   }
 
   ngOnInit() {
@@ -45,7 +44,7 @@ export class AppComponent {
     );
     // this.importerService.getJsonData();
   }
-
+  
   getAllData() {
     this.baseService.getAll('teams').subscribe(
       teams => this.teams = teams,
