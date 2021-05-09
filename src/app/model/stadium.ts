@@ -1,6 +1,6 @@
 export class Stadium {
-    city: string = "";
     id: string = "";
+    city: string = "";
     image: string = "";
     name: string = "";
 }
