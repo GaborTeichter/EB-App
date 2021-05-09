@@ -21,6 +21,7 @@ export class AppComponent {
   oneTeam: any;
   newRow: any = {};
   afAuth: any;
+
   
   constructor(
     firestore: AngularFirestore,
