@@ -7,6 +7,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
   providedIn: 'root'
 })
 export class StadiumService {
+  getAll(arg0: string) {
+    throw new Error('Method not implemented.');
+  }
 
   constructor() { }
 }
