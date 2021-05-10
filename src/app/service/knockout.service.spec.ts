@@ -1,16 +1,15 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed, inject } from '@angular/core/testing';
 
 import { KnockoutService } from './knockout.service';
 
 describe('KnockoutService', () => {
-  let service: KnockoutService;
-
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(KnockoutService);
+    TestBed.configureTestingModule({
+      providers: [KnockoutService]
+    });
   });
 
-  it('should be created', () => {
+  it('should be created', inject([KnockoutService], (service: KnockoutService) => {
     expect(service).toBeTruthy();
-  });
+  }));
 });

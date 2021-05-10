@@ -8,7 +8,7 @@ import { Team } from '../model/team';
  * Service for get data from firebase.
  * This is a CRUD service. Create, Read, Update, Delete.
  */
- @Injectable({
+@Injectable({
   providedIn: 'root'
 })
 export class BaseService<T> {
@@ -29,7 +29,7 @@ export class BaseService<T> {
     return this.itemsCollection.snapshotChanges().pipe(
       map(action => action.map(a => {
         const data = a.payload.doc.data();
-        data['id'] = a.payload.doc.data('id');
+        data['id'] = a.payload.doc.id;
         return data;
       }))
     );

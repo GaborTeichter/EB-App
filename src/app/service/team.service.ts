@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
+import { BaseService } from './base.service';
+import { Team } from '../model/team';
+import { AngularFirestore } from 'angularfire2/firestore';
 
 @Injectable({
   providedIn: 'root'
 })
-export class TeamService {
-  getAll(arg0: string) {
-    throw new Error('Method not implemented.');
-  }
+export class TeamService extends BaseService<Team> {
 
-  constructor() { }
+  constructor(afs: AngularFirestore) {
+    super(afs);
+  }
 }

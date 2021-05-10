@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
+import { BaseService } from './base.service';
+import { AngularFirestore } from 'angularfire2/firestore';
+import { Knockout } from '../model/knockout';
 
 @Injectable({
   providedIn: 'root'
 })
-export class KnockoutService {
-  getAll(arg0: string) {
-    throw new Error('Method not implemented.');
-  }
+export class KnockoutService extends BaseService<Knockout> {
 
-  constructor() { }
+  constructor(afs: AngularFirestore) {
+    super(afs);
+  }
 }

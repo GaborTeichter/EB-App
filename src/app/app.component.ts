@@ -26,6 +26,7 @@ export class AppComponent {
   constructor(
     firestore: AngularFirestore,
     private baseService: BaseService<Team>,
+    //private afAuth: AngularFireAuth,
     private authService: AuthService,
     private importerService: ImporterService
   ) {

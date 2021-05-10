@@ -1,15 +1,14 @@
 import { Injectable } from '@angular/core';
 import { BaseService } from './base.service';
-import { Team } from '../model/team';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFirestore } from 'angularfire2/firestore';
+import { Stadium } from '../model/stadium';
 
 @Injectable({
   providedIn: 'root'
 })
-export class StadiumService {
-  getAll(arg0: string) {
-    throw new Error('Method not implemented.');
-  }
+export class StadiumService extends BaseService<Stadium> {
 
-  constructor() { }
+  constructor(afs: AngularFirestore) {
+    super(afs);
+  }
 }
